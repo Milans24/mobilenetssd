@@ -151,7 +151,7 @@ def event_handle(event):
         msg = str(event["message"]["text"])
         if msg == "สวัสดี"
             replyObj = TextSendMessage(text="จ้า ดีด้วยจ้า")
-            else :
+        else :
             replyObj = TextSendMessage(rtoken, replyObj)
     elif msgType == "image":
         try:
